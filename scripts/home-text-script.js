@@ -12,13 +12,15 @@ let text4Finished = false;
 let text5Finished = false;
 
 // Directly setting the text content
-div.innerHTML = `
-    ${text1}<br><br>
-    ${text2}<br><br>
-    ${text3}<br><br>
-    ${text4}<br><br>
-    ${text5}
-`;
+div.innerHTML += text1;
+div.innerHTML += "<br><br>";
+div.innerHTML += text2;
+div.innerHTML += "<br><br>";
+div.innerHTML += text3;
+div.innerHTML += "<br><br>";
+div.innerHTML += text4;
+div.innerHTML += "<br><br>";
+div.innerHTML += text5;
 
 /*
 
