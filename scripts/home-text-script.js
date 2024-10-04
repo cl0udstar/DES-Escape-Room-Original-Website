@@ -11,6 +11,17 @@ let text3Finished = false;
 let text4Finished = false;
 let text5Finished = false;
 
+// Directly setting the text content
+div.innerHTML = `
+    ${text1}<br><br>
+    ${text2}<br><br>
+    ${text3}<br><br>
+    ${text4}<br><br>
+    ${text5}
+`;
+
+/*
+
 function textTypingEffect(element, text, i = 0, callback = null) {
     element.innerHTML += text[i];
 
@@ -25,8 +36,6 @@ function textTypingEffect(element, text, i = 0, callback = null) {
 
     setTimeout(() => textTypingEffect(element, text, i + 1, callback), 45);
 }
-
-/*
 
 textTypingEffect(div, text1, 0, function() {
     text1Finished = true;
