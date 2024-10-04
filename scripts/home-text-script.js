@@ -6,6 +6,9 @@ const text4 = "Once you reach the viking base, you will need to sneakily search 
 const text5 = "This is not just any escape; it's a test of your skills in observation, analysis, and problem-solving. Your training as an Agent of Data has prepared you for this moment. Trust in your abilities, use every skill at your disposal, and make your escape from the evil V.I.K.I.N.G.S' lair a success. Good luck, Agent. The fate of the world rests in your hands.";
 
 
+// Clear any existing content
+div.innerHTML = "";
+
 // Directly setting the text content
 div.innerHTML += text1;
 div.innerHTML += "<br><br>";
@@ -18,8 +21,6 @@ div.innerHTML += "<br><br>";
 div.innerHTML += text5;
 
 // Commented out the textTypingEffect function for now for speed and simplicity
-
-
 /*
 
 let text1Finished = false;
