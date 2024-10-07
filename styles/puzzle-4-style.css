@@ -184,3 +184,14 @@
         width: 100%;
     }
 }
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    margin: 0 auto; /* Ensures the container takes the full width */
+}
+
+.map-image {
+    max-width: 50%; /* Adjust this value to make the image smaller */
+    height: auto; /* Keeps the aspect ratio of the image */
+}
