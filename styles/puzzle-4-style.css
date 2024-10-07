@@ -192,6 +192,6 @@
 }
 
 .map-image {
-    max-width: 50%; /* Adjust this value to make the image smaller */
+    max-width: 40%; /* Adjust this value to make the image smaller */
     height: auto; /* Keeps the aspect ratio of the image */
 }
