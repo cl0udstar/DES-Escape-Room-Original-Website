@@ -8,7 +8,7 @@ const arrayData = [
         color: "linear-gradient(-135deg, #c8e4b2, #7eaa92)",
         imageWidth: "300px",
         imageHeight: "350px",
-        para: "You begin your journey by walking through the deep dark forest. Suddenly everything goes silent. A tall man with grey hair stops you in your path! It is Major X, the leader of the Data Agents, “I am here to test your powers of code breaking”.",
+        para: "You begin your journey by walking through the deep, dark forest. Suddenly, everything goes silent. A tall man with grey hair stops you in your path! It is Major X, the leader of the Data Agents. 'I am here to test your powers of code breaking,' he says. 'To prove your identity and continue, you must contact me using the correct numbers at specific times throughout the day. Only then can you prove you are still under our command and worthy to proceed.'",
         link: "../puzzles/puzzle-1.html",
         lock: "lock1",
         frontFeatures: "front1"
