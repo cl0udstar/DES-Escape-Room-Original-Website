@@ -1,11 +1,11 @@
 const div = document.querySelector(".home-text");
 
 // set the contents of the text
-const text1 = "Agent, we have heard whispers of an evil plot from the data V.I.K.I.N.G.S over in Fjordhelm, and we need you to help us. Your objective is to get hold of their computer that holds their evil plan and destroy it.";
-const text2 = "You need to participate in an adventure through the mountains and the seas, and prove your knowledge to the mischievous vikings in your way.";
-const text3 = "Once you reach the viking base, you will need to sneakily search through their highly secured lair until you have sight of the computer.";
-const text4 = "This is not just any escape; it's a test of your skills in observation, analysis, and problem-solving. Your training as an Agent of Data has prepared you for this moment. Trust in your abilities, use every skill at your disposal, and make your escape from the evil V.I.K.I.N.G.S' lair a success. Good luck, Agent. The fate of the world rests in your hands.";
-const text5 = " ";
+const text1 = "Agent, urgent news has reached us. The data V.I.K.I.N.G.S of Fjordhelm are plotting a global catastrophe using classified information. We need you to infiltrate their base and stop them before it's too late.";
+const text2 = "Your mission is clear: find their hidden computer, retrieve the data on their plans, and destroy it before the plan is set in motion.";
+const text3 = "This won't be easy. You'll navigate treacherous mountains, stormy seas, and outsmart the cunning vikings guarding their lair.";
+const text4 = "Prepare yourself for challenges that will test your observation, analysis, and problem-solving skills. As an Agent of Data, you're our last hope.";
+const text5 = "Time is short. Good luck, Agent. The fate of the world depends on you.";
 
 
 // Clear any existing content
