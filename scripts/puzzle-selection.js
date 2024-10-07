@@ -34,7 +34,7 @@ const arrayData = [
         color: "linear-gradient(-135deg, #c8e4b2, #7eaa92)",
         imageWidth: "300px",
         imageHeight: "350px",
-        para: "You make it to the giant mountains that have been in the distance for what feels like forever. Jakub Grey – The data viking stops and begins to talk to you. “If you are a true warrior then prove that you can throw an axe like me, then I will let you pass”",
+        para: "You finally reach the towering mountains that have loomed in the distance for what feels like forever. Jakub Grey – the formidable data viking – stands in your way. 'If you are truly a warrior, show me your worth by matching my skill in axe throwing. Prove yourself, and only then will I let you pass.' You must blend in as one of the vikings, skilled in axe throwing, to proceed.",
         link: "../puzzles/puzzle-3.html",
         lock: "lock3",
         frontFeatures: "front3"
