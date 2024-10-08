@@ -335,14 +335,17 @@
 .letter1 {
     top: 10%; /* Adjust to your needs */
     left: 20%;
+    display: "none";
 }
 
 .letter2 {
     top: 30%;
     left: 40%;
+    display: "none";
 }
 
 .letter3 {
     top: 50%;
     left: 60%;
+    display: "none";
 }
