@@ -312,12 +312,18 @@ function showBigImage() {
     document.querySelector('.keypad-image-small').style.display = 'none';
     document.querySelector('.keypad-image-big').style.display = 'block';
     document.querySelector('.dark-overlay').style.display = 'block';
+
+    // Show the text overlay
+    document.querySelector('.text-overlay').style.display = 'block';
 }
 
 function hideBigImage() {
     document.querySelector('.keypad-image-big').style.display = 'none';
     document.querySelector('.keypad-image-small').style.display = 'block';
     document.querySelector('.dark-overlay').style.display = 'none';
+
+    // clear the text overlay
+    document.querySelector('.text-overlay').style.display = 'none';
 }
 ////////////////////////////////////////////////////////////
 
