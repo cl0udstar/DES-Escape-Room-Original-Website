@@ -401,7 +401,7 @@ function checkAnswerQ1() {
     var userAnswer = document.getElementById("userAnswerStep3").value.trim().toUpperCase();
     var result = document.getElementById("resultStep3");
 
-    if (userAnswer === "SFHFKDIXFO") {
+    if (userAnswer === "COKYPMRKYC") {
         result.textContent = "Nice work, Agent! It seems the combination is close to being cracked!";
         result.style.color = "green";
         keyInputQ1.disabled = true;
@@ -469,7 +469,7 @@ const box2 = document.querySelector('.alphabet-box2');
 const shiftedBox = document.querySelector('.alphabet-box2');
 
 const shiftAmount = caesarShiftAlphabet(shiftedBox);
-const sequence = 'SFHFKDIXFO';
+const sequence = 'COKYPMRKYC';
 
 // Match the sequence against the shifted alphabet
 const matchedSequence = matchSequence(sequence, shiftAmount);
