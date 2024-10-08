@@ -310,8 +310,12 @@ function updateKeypadButtons(matchedSequence) {
 ////////////////////////////////////////////////////////////
 function showBigImage() {
     document.querySelector('.keypad-image-small').style.display = 'none';
-    document.querySelector('.keypad-image-big').style.display = 'block';
+    document.querySelector('.keypad-image-big').style.display = 'none';
     document.querySelector('.dark-overlay').style.display = 'block';
+
+    // Show the canvas for the big image
+    const canvas = document.getElementById("imageCanvas");
+    canvas.style.display = 'block';  // Ensure the canvas is visible
 
     const imageSrc = "../assets/backgrounds/puzzle5-assets/map2.png";
     const letters = ["A", "B", "C"];
