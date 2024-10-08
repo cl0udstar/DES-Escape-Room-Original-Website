@@ -315,6 +315,8 @@ function showBigImage() {
 
     // Show the canvas for the big image
     const canvas = document.getElementById("imageCanvas");
+    canvas.style.cssText = "width: 1000px; border-radius: 10px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1000;";
+
     canvas.style.display = 'block';  // Ensure the canvas is visible
 
     const imageSrc = "../assets/backgrounds/puzzle5-assets/map2.png";
