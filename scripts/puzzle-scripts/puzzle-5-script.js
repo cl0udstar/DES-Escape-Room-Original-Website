@@ -430,7 +430,7 @@ function caesarShiftAlphabet(box) {
 
     // Generate a random shift amount between 1 and 25
     // const shiftAmount = Math.floor(Math.random() * 25) + 1;
-    const shiftAmount = 17;
+    const shiftAmount = 18;
 
     // Perform the Caesar shift on each letter
     letters.forEach((letter, index) => {
