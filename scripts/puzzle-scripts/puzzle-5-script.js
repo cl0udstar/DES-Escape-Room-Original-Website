@@ -315,6 +315,7 @@ function showBigImage() {
 
     // Show the text overlay
     document.querySelector('.text-overlay').style.display = 'block';
+    document.querySelector('.letter1').style.display = 'block';
 }
 
 function hideBigImage() {
@@ -324,6 +325,8 @@ function hideBigImage() {
 
     // clear the text overlay
     document.querySelector('.text-overlay').style.display = 'none';
+    document.querySelector('.letter1').style.display = 'none';
+
 }
 ////////////////////////////////////////////////////////////
 
