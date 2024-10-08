@@ -313,10 +313,13 @@ function showBigImage() {
     document.querySelector('.keypad-image-big').style.display = 'block';
     document.querySelector('.dark-overlay').style.display = 'block';
 
-    // Show the text overlay
-    document.querySelector('.text-overlay').style.display = 'block';
-    document.querySelector('.letter1').style.display = 'block';
-    document.querySelector('.letter2').style.display = 'block';
+    const imageSrc = "../assets/backgrounds/puzzle5-assets/map2.png";
+    const letters = ["A", "B", "C"];
+    const positions = [[100, 100], [200, 200], [300, 300]]; // Positions for each letter
+
+    // Call the function to overlay the letters on the image
+    overlayLettersOnImage(imageSrc, letters, positions);
+
 }
 
 function hideBigImage() {
@@ -332,7 +335,31 @@ function hideBigImage() {
 }
 ////////////////////////////////////////////////////////////
 
+////////////////////////////////////////////////////////////
+// Function to overlay letters onto map image
+////////////////////////////////////////////////////////////
 
+// Function to overlay letters on an image
+function overlayLettersOnImage(imageSrc, letters, positions) {
+    const canvas = document.getElementById("imageCanvas");
+    const ctx = canvas.getContext("2d");
+    const image = new Image();
+    image.src = imageSrc;
+
+    // When the image loads, draw it on the canvas and overlay the letters
+    image.onload = function() {
+        ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
+        
+        ctx.font = "40px Arial"; // Set the font for the letters
+        ctx.fillStyle = "black";   // Set the text color
+
+        // Loop through letters and positions and place them on the canvas
+        for (let i = 0; i < letters.length; i++) {
+            let [x, y] = positions[i]; // Get the x, y position for each letter
+            ctx.fillText(letters[i], x, y);
+        }
+    };
+}
 
 ////////////////////////////////////////////////////////////
 // Function for the Step 2 'Match the letters with each location'
