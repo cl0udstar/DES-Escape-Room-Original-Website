@@ -321,3 +321,28 @@
 .highlighted {
     background-color: #F24C3D;
 }
+
+
+
+.overlay-text {
+    position: absolute;
+    font-size: 24px; /* Adjust font size */
+    color: red; /* Adjust text color */
+    font-weight: bold;
+}
+
+/* Positioning the letters */
+.letter1 {
+    top: 10%; /* Adjust to your needs */
+    left: 20%;
+}
+
+.letter2 {
+    top: 30%;
+    left: 40%;
+}
+
+.letter3 {
+    top: 50%;
+    left: 60%;
+}
