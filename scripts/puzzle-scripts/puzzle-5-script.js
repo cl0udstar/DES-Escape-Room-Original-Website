@@ -312,7 +312,9 @@ function showBigImage() {
     document.querySelector('.keypad-image-small').style.display = 'none';
     document.querySelector('.keypad-image-big').style.display = 'block';
     document.querySelector('.dark-overlay').style.display = 'block';
-    
+
+    const letters = ['C', 'O', 'K', 'Y', 'P', 'M', 'R', 'K', 'Y', 'C']; // Letters to overlay
+    const positions = [[100, 100], [200, 100], [300, 100], [400, 100], [500, 100], [100, 200], [200, 200], [300, 200], [400, 200], [500, 200]]; // Positions to overlay the letters
 
     // Call the function to overlay the letters on the image
     overlayLettersOnImage(imageSrc, letters, positions);
