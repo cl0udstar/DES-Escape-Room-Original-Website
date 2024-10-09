@@ -313,11 +313,10 @@ function showBigImage() {
     document.querySelector('.keypad-image-big').style.display = 'block';
     document.querySelector('.dark-overlay').style.display = 'block';
 
-    const letters = ['C', 'O', 'K', 'Y', 'P', 'M', 'R', 'K', 'Y', 'C']; // Letters to overlay
-    const positions = [[100, 100], [200, 100], [300, 100], [400, 100], [500, 100], [100, 200], [200, 200], [300, 200], [400, 200], [500, 200]]; // Positions to overlay the letters
-
-    // Call the function to overlay the letters on the image
-    overlayLettersOnImage(imageSrc, letters, positions);
+    // Show the text overlay
+    for (let i = 1; i <= 10; i++) {
+        document.querySelector(`.letter${i}`).style.display = 'block';
+    }
 
 }
 
@@ -327,9 +326,9 @@ function hideBigImage() {
     document.querySelector('.dark-overlay').style.display = 'none';
 
     // clear the text overlay
-    document.querySelector('.text-overlay').style.display = 'none';
-    document.querySelector('.letter1').style.display = 'none';
-    document.querySelector('.letter2').style.display = 'none';
+    for (let i = 1; i <= 10; i++) {
+        document.querySelector(`.letter${i}`).style.display = 'none';
+    }
 
 }
 ////////////////////////////////////////////////////////////
@@ -337,6 +336,8 @@ function hideBigImage() {
 ////////////////////////////////////////////////////////////
 // Function to overlay letters onto map image
 ////////////////////////////////////////////////////////////
+
+/// CURRENTLY NOT in use
 
 // Function to overlay letters on an image
 function overlayLettersOnImage(imageSrc, letters, positions) {
