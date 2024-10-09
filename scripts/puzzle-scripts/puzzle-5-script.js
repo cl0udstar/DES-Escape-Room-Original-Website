@@ -313,16 +313,6 @@ function showBigImage() {
     document.querySelector('.keypad-image-big').style.display = 'block';
     document.querySelector('.dark-overlay').style.display = 'block';
     
-    // Show the canvas for the big image
-    //const canvas = document.getElementById("imageCanvas");
-    //canvas.style.cssText = "width: 1000px; border-radius: 10px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1000;";
-
-    //canvas.style.display = 'block';  // Ensure the canvas is visible
-
-    //const imageSrc = "../assets/backgrounds/puzzle5-assets/map2.png";
-    //const letters = ["A", "B", "C"];
-    //const positions = [[100, 100], [200, 200], [300, 300]]; // Positions for each letter
-
 
     // Call the function to overlay the letters on the image
     overlayLettersOnImage(imageSrc, letters, positions);
