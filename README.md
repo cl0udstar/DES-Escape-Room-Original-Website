@@ -17,3 +17,6 @@ Navigate through the virtual environment, uncover clues, and solve a sequence of
 ### Prerequisites
 
 - A modern web browser (e.g., Chrome, Firefox, Edge)
+
+
+Created with 💡 by cl0udstar, Cam1906
