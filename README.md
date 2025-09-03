@@ -1,4 +1,4 @@
-# 🧠 Escape Room - Agents of Data
+# 🧠 DES (Data Education in Schools) Escape Room - Agents of Data
 
 Welcome to **Escape Room - Agents of Data**, a web-based interactive puzzle game where the goal is to solve riddles, crack codes, and escape virtual realms — all from your browser.
 
