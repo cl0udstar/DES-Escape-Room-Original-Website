@@ -5,7 +5,7 @@ An interactive, browser-based educational escape room game designed to challenge
 ---
 
 ##  Live Demo  
-Try it out live at: [https://cl0udstar.github.io/escape-room-original-website/](https://cl0udstar.github.io/escape-room-original-website/)
+Try it live → [https://cl0udstar.github.io/escape-room-original-website/](https://cl0udstar.github.io/escape-room-original-website/)
 
 ---
 
